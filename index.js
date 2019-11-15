@@ -2,7 +2,7 @@ const express =require('express')
 const app = express()
 
 app.get("/:id",(req,res)=>{
-  res.send("Hello there "+req.params.id)
+  res.send("You are bad :  "+req.params.id)
 })
 
 
