@@ -1,8 +1,8 @@
 const express =require('express')
 const app = express()
 
-app.get("/",(req,res)=>{
-  res.send("Working!")
+app.get("/:id",(req,res)=>{
+  res.send("Hello there "+req.params.id)
 })
 
 
